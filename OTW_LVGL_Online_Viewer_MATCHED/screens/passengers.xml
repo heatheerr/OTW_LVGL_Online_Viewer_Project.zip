@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen><view>
+ <lv_obj width="100%" height="100%" bg_color="#bg" pad_all="18" flex_flow="column" gap="12">
+  <lv_label text="Onboard Passengers" text_color="#white"/>
+  <lv_obj width="100%" height="60" bg_opa="0" flex_flow="row" justify="end"><lv_obj width="250" height="52" bg_color="#green" radius="12" align="center" justify="center"><lv_label text="0 / 8 Onboard" text_color="#white"/></lv_obj></lv_obj>
+  <lv_obj width="100%" flex_grow="1" bg_color="#light_panel" radius="18" pad_all="12" flex_flow="column" gap="6">
+   <lv_label text="SEAT     PASSENGER                  STATUS       BOARD TIME       ACTION" text_color="#dark_text"/>
+   <lv_label text="01       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="02       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="03       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="04       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="05       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="06       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="07       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+   <lv_label text="08       Empty Seat                  Available     -                     -" text_color="#dark_text"/>
+  </lv_obj>
+ </lv_obj>
+</view></screen>

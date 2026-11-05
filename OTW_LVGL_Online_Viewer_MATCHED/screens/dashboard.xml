@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen>
+ <view>
+  <lv_obj width="100%" height="100%" bg_color="#bg" flex_flow="row" pad_all="0">
+   <!-- Left OTW sidebar, matching original 12.5rem navigation rail -->
+   <lv_obj width="200" height="100%" bg_color="#side_top" pad_all="12" flex_flow="column" gap="12">
+    <lv_obj width="100%" height="92" bg_opa="0" flex_flow="column" align="center" justify="center" gap="2">
+     <lv_label text="OTW" text_color="#white"/>
+     <lv_label text="Optimized Transit Watcher" text_color="#white"/>
+    </lv_obj>
+    <lv_button width="100%" height="50" bg_color="#red"><lv_label text="⌂  Dashboard" text_color="#white"/></lv_button>
+    <lv_button width="100%" height="50" bg_color="#side_top"><lv_label text="▧  Navigation" text_color="#white"/></lv_button>
+    <lv_button width="100%" height="50" bg_color="#side_top"><lv_label text="♙  Request" text_color="#white"/></lv_button>
+    <lv_button width="100%" height="50" bg_color="#side_top"><lv_label text="♟  Passengers" text_color="#white"/></lv_button>
+   </lv_obj>
+   <!-- Main content area -->
+   <lv_obj flex_grow="1" height="100%" bg_opa="0" pad_all="14" flex_flow="column" gap="10">
+    <lv_obj width="100%" height="58" bg_opa="0" flex_flow="row" align="center">
+     <lv_obj flex_grow="1" bg_opa="0" flex_flow="column" gap="2">
+      <lv_label text="Good Morning, Driver!" text_color="#white"/>
+      <lv_label text="Sunday, October 26, 2025" text_color="#white"/>
+     </lv_obj>
+     <lv_label text="08:30 AM   ◉  ▮▮  ▰" text_color="#white"/>
+    </lv_obj>
+    <!-- Top dashboard cards: vehicle and passenger status -->
+    <lv_obj width="100%" height="190" bg_opa="0" flex_flow="row" gap="12">
+     <lv_obj width="50%" height="100%" bg_color="#panel" radius="16" pad_all="12" flex_flow="row" align="center" gap="10">
+      <lv_obj width="55%" height="100%" bg_opa="0" flex_flow="column" align="center" justify="center" gap="8">
+       <lv_label text="🚐" text_color="#white"/>
+       <lv_label text="Mitsubishi L300" text_color="#white"/>
+      </lv_obj>
+      <lv_obj flex_grow="1" height="100%" bg_opa="0" flex_flow="column" align="center" justify="center" gap="10">
+       <lv_label text="Shuttle 01" text_color="#white"/>
+       <lv_obj width="100%" height="38" bg_color="#red" radius="8" align="center" justify="center"><lv_label text="Standby" text_color="#white"/></lv_obj>
+       <lv_obj width="100%" height="42" bg_color="#white" radius="8" align="center" justify="center"><lv_label text="ABC 1234" text_color="#dark_text"/></lv_obj>
+      </lv_obj>
+     </lv_obj>
+     <lv_obj flex_grow="1" height="100%" bg_color="#panel" radius="16" pad_all="14" flex_flow="column" gap="8">
+      <lv_label text="Passenger Status" text_color="#white"/>
+      <lv_obj width="100%" flex_grow="1" bg_opa="0" flex_flow="row" align="center" justify="space_between">
+       <lv_obj bg_opa="0" flex_flow="column" gap="4"><lv_label text="0 / 8" text_color="#white"/><lv_label text="Onboard" text_color="#white"/></lv_obj>
+       <lv_obj width="92" height="92" radius="46" border_width="9" border_color="#red" bg_color="#panel" align="center" justify="center"><lv_obj width="70" height="70" radius="35" border_width="8" border_color="#green" bg_color="#panel" align="center" justify="center"><lv_label text="8" text_color="#white"/></lv_obj></lv_obj>
+      </lv_obj>
+      <lv_obj width="100%" height="26" bg_opa="0" flex_flow="row" justify="space_between">
+       <lv_label text="♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟" text_color="#white"/>
+      </lv_obj>
+     </lv_obj>
+    </lv_obj>
+    <!-- Start / end trip buttons -->
+    <lv_obj width="100%" height="52" bg_opa="0" flex_flow="row" gap="12">
+     <lv_button flex_grow="1" height="100%" bg_color="#gray"><lv_label text="▶  Start Trip" text_color="#white"/></lv_button>
+     <lv_button flex_grow="1" height="100%" bg_color="#red"><lv_label text="■  End Trip" text_color="#white"/></lv_button>
+    </lv_obj>
+    <!-- Current route card -->
+    <lv_obj width="100%" flex_grow="1" bg_color="#panel" radius="16" pad_all="14" flex_flow="column" gap="8">
+     <lv_label text="Current Route" text_color="#white"/>
+     <lv_obj width="100%" flex_grow="1" bg_opa="0" flex_flow="row" align="center" gap="14">
+      <lv_label text="📍" text_color="#red"/>
+      <lv_obj flex_grow="1" bg_opa="0" flex_flow="column" gap="2"><lv_label text="Lessandra Heights" text_color="#white"/><lv_label text="Departure" text_color="#white"/></lv_obj>
+      <lv_label text="08:30 AM   ✓" text_color="#white"/>
+     </lv_obj>
+     <lv_obj width="100%" height="1" bg_color="#gray"/>
+     <lv_obj width="100%" flex_grow="1" bg_opa="0" flex_flow="row" align="center" gap="14">
+      <lv_label text="●" text_color="#white"/>
+      <lv_obj flex_grow="1" bg_opa="0" flex_flow="column" gap="2"><lv_label text="En Route --" text_color="#white"/><lv_label text="Travelling..." text_color="#white"/></lv_obj>
+     </lv_obj>
+     <lv_obj width="100%" height="1" bg_color="#gray"/>
+     <lv_obj width="100%" flex_grow="1" bg_opa="0" flex_flow="row" align="center" gap="14">
+      <lv_label text="📍" text_color="#red"/>
+      <lv_obj flex_grow="1" bg_opa="0" flex_flow="column" gap="2"><lv_label text="Vista Mall Daang Hari" text_color="#white"/><lv_label text="Estimated Arrival" text_color="#white"/></lv_obj>
+      <lv_label text="09:15 AM   ◷" text_color="#white"/>
+     </lv_obj>
+    </lv_obj>
+   </lv_obj>
+  </lv_obj>
+ </view>
+</screen>

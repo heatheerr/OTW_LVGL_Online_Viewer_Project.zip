@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="OTW_Driver_Dashboard" lvgl_version="9.5.0" theme="default">
+  <targets><target name="Waveshare_ESP32_S3_Touch_LCD_7B"><display width="1024" height="600"/></target></targets>
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globals>
+ <consts>
+  <color name="bg" value="0x1A0306"/>
+  <color name="side_top" value="0x4D0912"/>
+  <color name="panel" value="0x3D0A11"/>
+  <color name="red" value="0xE02B20"/>
+  <color name="white" value="0xFFFFFF"/>
+  <color name="green" value="0x2E9E4A"/>
+  <color name="gray" value="0x707070"/>
+  <color name="light_panel" value="0xFFFFFF"/>
+  <color name="dark_text" value="0x1C1C1C"/>
+ </consts>
+</globals>

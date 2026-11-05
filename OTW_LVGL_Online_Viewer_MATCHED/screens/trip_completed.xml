@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<screen><view>
+ <lv_obj width="100%" height="100%" bg_color="#bg" pad_all="24" flex_flow="column" align="center" justify="center" gap="14">
+  <lv_obj width="90%" height="100%" bg_color="#light_panel" radius="18" pad_all="24" flex_flow="column" align="center" gap="12">
+   <lv_label text="Trip Completed" text_color="#dark_text"/>
+   <lv_label text="You have successfully finished the trip." text_color="#dark_text"/>
+   <lv_obj width="100%" flex_grow="1" bg_color="0xF6F2F2" radius="12" pad_all="16" flex_flow="column" gap="12">
+    <lv_label text="From: Lessandra Heights" text_color="#dark_text"/>
+    <lv_label text="To: Vista Mall Daang Hari" text_color="#dark_text"/>
+    <lv_label text="Start Time: --" text_color="#dark_text"/>
+    <lv_label text="End Time: --" text_color="#dark_text"/>
+    <lv_label text="Total Time: --   |   Distance: 8.2 km" text_color="#dark_text"/>
+    <lv_label text="Passengers: --" text_color="#dark_text"/>
+   </lv_obj>
+   <lv_button width="100%" height="56" bg_color="#red"><lv_label text="⌂  Back to Dashboard" text_color="#white"/></lv_button>
+  </lv_obj>
+ </lv_obj>
+</view></screen>
